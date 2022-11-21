@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "{{project_name}}"
+version = "0.1.0"
+description = "{{description}}"
+authors = ["{{author}}"]
+
+[tool.poetry.dependencies]
+pydantic
+python
+
+[tool.poetry.dev-dependencies]
+black
+coverage
+factory-boy
+flake8
+flake8-black
+flake8-bugbear
+flake8-builtins
+flake8-comprehensions
+flake8-eradicate
+flake8-fixme
+flake8-isort
+flake8-pytest
+ipdb
+isort
+mypy
+pre-commit
+pytest
+
+[build-system]
+requires = ["poetry>=1.1.0"]
+build-backend = "poetry.masonry.api"
